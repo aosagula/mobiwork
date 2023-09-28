@@ -1,0 +1,1 @@
+pyinstaller --hidden-import=pymssql --collect-all=pymssql --hidden-import=xlsxwriter --collect-all=xlsxwriter --onedir --hidden-import=uuid --collect-all=uuid --hidden-import=datetime --collect-all=datetime mobiwork.py

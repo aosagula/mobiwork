@@ -1,0 +1,1 @@
+pyinstaller --hidden-import=pymssql --collect-all=pymssql  --onedir --hidden-import=uuid --collect-all=uuid --hidden-import=datetime --collect-all=datetime rendel.py
